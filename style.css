@@ -1,8 +1,95 @@
-body {
-    font-family: "Courier New";
+html {
+    background-color: blanchedalmond;
 }
 
-.links li a {
-    font-size: 18px;
+body {
+    font-family: "Courier New";
+    max-width: 1000px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+body > img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Home Screen */
+
+.galary {
+    text-align: center;
+    display: flex;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .galary {
+        flex-direction: column;
+    }
+
+    body {
+        border-radius: 0px;
+        margin: 0 auto;
+    }
+
+    html {
+        background-color: bisque;
+    }
+
+    .home {
+        margin: auto;
+    }
+
+    .head {
+        flex-direction: column;
+    }
+}
+
+.galary > a {
+    background-color: rgb(229, 193, 151);
+    margin: 10px;
+    border-radius: 15px;
     color: black;
+    text-decoration: none;
+}
+
+.galary > a > img {
+    border-radius: 15px 15px 0px 0px;
+    height: auto;
+    width: 100%;
+}
+
+.galary > a > h2 {
+    font-size: 2rem;
+    color: black;
+    margin: 15px;
+}
+
+/* Home Button */
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+header > h1 {
+    margin: 20px auto;
+}
+
+.home {
+    width: 10%;
+}
+
+.home > img {
+    height: auto;
+    width: 100%;
+    scale: 0.5;
 }
