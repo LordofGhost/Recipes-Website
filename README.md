@@ -2,7 +2,7 @@
 
 This is my first Projekt from The Odin Projekt, I liked process because it was nice to really work on my own and not just following a tutorial.
 
-Live preview: [Odin Recipes](https://lordofghost.github.io/odin-recipes/)
+Live preview: [Odin Recipes](https://lordofghost.github.io/Recipes-Website/)
 
 ## Credits:
 
